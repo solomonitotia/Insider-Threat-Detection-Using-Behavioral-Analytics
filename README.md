@@ -39,13 +39,16 @@ This project aims to develop an **Insider Threat Detection System** that monitor
     pip install -r requirements.txt
     Set up ElasticSearch:
 
+
 4. **Download and install ElasticSearch from the official website.**
 
 5. **Start ElasticSearch**:
     ```bash
     Copy code
     ./bin/elasticsearch  # On Windows, use elasticsearch.bat
-
+6. Install request libraries if need be
+    ```bash
+    pip install requests
 Load sample data:
 
 Ensure you have sample logs in data/sample_logs.json.
