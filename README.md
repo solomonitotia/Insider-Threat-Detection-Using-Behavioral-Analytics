@@ -29,13 +29,13 @@ This project aims to develop an **Insider Threat Detection System** that monitor
    cd insider-threat-detection
 2. **Create a virtual environment**:
     ```bash
-    Copy code
+    #Copy code
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install required packages**:
     ```bash
-    Copy code
+    #Copy code
     pip install -r requirements.txt
     Set up ElasticSearch:
 
