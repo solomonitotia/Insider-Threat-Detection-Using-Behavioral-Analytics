@@ -7,9 +7,8 @@ import sys
 import os
 
 from app import logger
-from splunk_integration import send_to_splunk
-
-
+# from splunk_integration import send_to_splunk
+from app.splunk_integration import send_to_splunk
 
 from logging.handlers import RotatingFileHandler
 app = Flask(__name__)
